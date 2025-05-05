@@ -1,0 +1,7 @@
+{% set name = 'Fabien' %}
+{% set numbers = [1, 2] %}
+{% set map = {'city': 'Paris'} %}
+
+<p>Welcome, {{ name|striptags|title }}</p>
+<br />
+<p>Numbers are: {{ numbers|join(', ') }}</p>
